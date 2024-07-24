@@ -6,6 +6,7 @@ from firebase_functions import https_fn
 from firebase_admin import initialize_app
 from src.genai import get_gemini_response
 import json
+from src.fireGen import converse
 
 initialize_app()
 #
